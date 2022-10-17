@@ -1,0 +1,22 @@
+img{
+    height: 250px;
+    object-fit: cover;
+}
+#text-over{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+button{
+    width : 100px
+}
+.card{
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+.row{
+    gap: 10px;
+}
