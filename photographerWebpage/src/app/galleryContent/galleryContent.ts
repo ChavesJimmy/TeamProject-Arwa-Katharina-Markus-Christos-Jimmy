@@ -21,7 +21,7 @@ export const mainImage : Array<any> = [
         title:"Natur"},
 ]
 export const myGalleryWedding : Array<any> = [
-    {
+    { 
         url : "",
         photos : [""]
         

@@ -1,4 +1,0 @@
-export interface IGallery {
-    url:string,
-    photos : Array<any>
-}
