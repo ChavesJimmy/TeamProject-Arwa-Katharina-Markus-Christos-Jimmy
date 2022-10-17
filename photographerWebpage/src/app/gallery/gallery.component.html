@@ -1,6 +1,8 @@
+
+<h1>My Gallery</h1>
 <div class="row">
-<div class="card col-lg-3 col-md-5 col-sm-11" *ngFor="let item of mainImage">
-    <img src="{{item.image}} " class="card-img w-100" alt="{{item.image}} ">
+<div class="card col-lg-3 col-md-5 col-sm-11 " *ngFor="let item of mainImage">
+    <img src="{{item.image}} " class="card-img w-100 " alt="{{item.image}} ">
     <div class="card-img-overlay" id="text-over">
       <h5 class="card-title">{{item.title}}</h5>
       <button routerLink="/{{item.title}}"> See more</button>

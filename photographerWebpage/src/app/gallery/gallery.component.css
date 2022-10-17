@@ -5,18 +5,47 @@ img{
 #text-over{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: solid;
 }
+
 button{
-    width : 100px
+    width : 100px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 .card{
     margin: auto;
     margin-bottom: 15px;
-
+    border: solid 3px;
+    box-shadow: rgb(73, 73, 73) 5px 5px 5px 5px;
+    filter: grayscale(60%);
 }
 .row{
     gap: 10px;
+}
+*{
+    border-radius: 100%;
+    padding: 0px;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+h5{
+    width: 200px;
+    height: 70üx;
+    text-align: center;
+    color:white;
+    border: solid;
+    padding: 5px;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: black;
+    opacity: 55%;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
 }
