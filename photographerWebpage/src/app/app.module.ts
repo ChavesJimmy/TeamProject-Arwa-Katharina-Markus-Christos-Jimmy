@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -15,7 +14,6 @@ import { GalleryComponent } from './gallery/gallery.component';
     AppComponent,
     NavbarComponent,
     HomePageComponent,
-    PortfolioComponent,
     AboutComponent,
     ContactComponent,
     GalleryComponent
