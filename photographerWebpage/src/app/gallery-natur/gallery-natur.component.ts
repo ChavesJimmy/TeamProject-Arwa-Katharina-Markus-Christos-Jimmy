@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { myGalleryNatur } from '../galleryContent/galleryContent';
 
 @Component({
   selector: 'app-gallery-natur',
@@ -6,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gallery-natur.component.css']
 })
 export class GalleryNaturComponent implements OnInit {
-
+ natur:Array<any> = myGalleryNatur
   constructor() { }
-
   ngOnInit(): void {
   }
 

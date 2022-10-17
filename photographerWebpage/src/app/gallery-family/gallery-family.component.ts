@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { myGalleryFamily } from '../galleryContent/galleryContent';
 
 @Component({
   selector: 'app-gallery-family',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gallery-family.component.css']
 })
 export class GalleryFamilyComponent implements OnInit {
-
+family:Array<any> = myGalleryFamily
   constructor() { }
 
   ngOnInit(): void {
