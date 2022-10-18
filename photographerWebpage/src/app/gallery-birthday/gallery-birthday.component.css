@@ -1,4 +1,14 @@
 img{
     width:100%;
     margin-bottom: 10px;
+    object-fit: contain;
+}
+img:hover{
+    transform: scale(2.0);
+    height: 100%;
+    margin: auto;
+    margin-left: 100px;}
+
+.row{
+    padding: 6rem;
 }
