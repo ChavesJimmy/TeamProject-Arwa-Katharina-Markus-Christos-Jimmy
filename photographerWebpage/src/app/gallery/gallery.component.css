@@ -26,7 +26,7 @@ button{
     gap: 10px;
 }
 *{
-    border-radius: 100%;
+    border-radius: 25px;
     padding: 0px;
 }
 .card:hover{

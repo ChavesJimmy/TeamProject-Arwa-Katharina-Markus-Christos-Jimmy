@@ -1,17 +1,23 @@
 img{
-    width:250px;
+    width:100%;
     margin-bottom: 10px;
-    height: 250px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
 }
 img:hover{
     transform: scale(2.0);
     margin: auto;
-    height: 100%;
-    width: 100%;
-    margin-left: 100px;}
-    
+}    
 .row{
         padding: 6rem;
-    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 25px;
+        margin: auto;
+}
+h1{
+    text-align: center;
+    padding: 25px;
 }
