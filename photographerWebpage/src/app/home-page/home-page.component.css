@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 audio {
-    width: 300px;
+    width: 20px;
+    height: 15px;
+    
 }
 audio::-webkit-media-controls-panel {
-    background-color: transparent;
-
+   background-color:#a8a09b;
 }
 
-audio::-webkit-media-controls-mute-button {
-   background-color: blue; 
-}
+
 audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-timeline-display, audio::-webkit-media-controls-current-time-display,audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline,audio::-webkit-media-controls-toggle-closed-captions-button {
-    display: none;
+    display: end;
 }
 
 
@@ -45,7 +45,7 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-timelin
     font-size: 2vw;
     letter-spacing: 0.3vw;
     font-weight: bold;
-    color: #a8a09bbb;
+    color: #a8a09b;
     font-family: 'Montserrat', sans-serif;
   }
   .hero .hero-text-container .btn {

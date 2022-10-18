@@ -1,43 +1,52 @@
 /* Section 1 */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 .part-1 {
-  background-color: bisque;
-  padding: 14% 0 3% 0;
+  padding: 10% 0 3% 0;
 }
 
 .div-image {
   width: 70%;
   height: 80%;
   margin: 0 auto;
+  margin-top: 5%;
   position: relative;
 }
 
 .text-over-image {
   position: absolute;
+  font-size: 45px !important;
   font-weight: bold;
-  top: -4%;
-  left: -10%;
+  top: -2%;
+  left: -9%;
   line-height: 1;
+  color: rgba(255, 255, 255, 0.335);
 }
 
 .text-over-image-2 {
   position: absolute;
+  font-size: 45px !important;
   font-weight: bold;
-  right: -10%;
-  bottom: -4%;
+  right: -15%;
+  bottom: -27%;
   line-height: 1;
-}
-
-.text-over-image-3 {
-  position: absolute;
-  top: 87%;
-  left: -11%;
-  line-height: 1;
-  font-family: "Tangerine", cursive;
+  color: rgba(255, 255, 255, 0.335);
 }
 
 /* Section 2 */
-
+h1 {
+    padding-top:0;
+    margin-top:0;
+    text-align: center;
+    text-transform:uppercase;
+    color: white;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+hr {
+    color: #a8a09b;
+}
 .part-2 {
   background-color: antiquewhite;
   padding: 7% 0 2% 0;
@@ -59,11 +68,8 @@ h3 {
 
 /* Section 3 */
 
-.part-3 {
-  background-color: bisque;
-  padding-top: 10%;
-  padding-bottom: 1%;
-  position: relative;
+.titel3 {
+    font-size: 80px !important;
 }
 
 .part-3-text-left {
@@ -71,15 +77,21 @@ h3 {
   line-height: 1;
   margin-top: 7%;
   margin-left: 9%;
-  font-family: "Ruslan Display", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: rgb(212, 166, 94);
+  color:white;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 150px;
 }
 
 .part-3-text-right {
   font-size: 1.3vw;
   line-height: 2;
   margin-right: 10%;
+}
+
+.magicImg {
+    margin-top: -20%;
 }
 
 .stars {

@@ -10,9 +10,12 @@ import { GalleryPartyComponent } from './gallery-party/gallery-party.component';
 import { GalleryPortraitComponent } from './gallery-portrait/gallery-portrait.component';
 import { GalleryWeddingComponent } from './gallery-wedding/gallery-wedding.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { HomePageComponent } from './home-page/home-page.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 const routes: Routes = [
+  {path:"", component: HomePageComponent
+  },
   {
     path: "about",
     component: AboutComponent,
