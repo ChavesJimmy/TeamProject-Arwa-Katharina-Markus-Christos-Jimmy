@@ -17,3 +17,7 @@ img:hover{
         gap: 25px;
         margin: auto;
 }
+h1{
+    text-align: center;
+    padding: 25px;
+}
