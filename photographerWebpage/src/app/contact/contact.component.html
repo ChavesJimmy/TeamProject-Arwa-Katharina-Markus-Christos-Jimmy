@@ -1,1 +1,36 @@
-<p>contact works!</p>
+<form [formGroup]="Contact" (ngSubmit)="onSubmit()">
+    <h1>Get in touch with us</h1>
+    <label>
+      First Name *: <br>
+      <input type="text" formControlName="firstName">
+    </label>
+    <label>
+     Last Name *: <br>
+        <input type="text" formControlName="lastName">
+      </label>
+      <label>
+    Age *:        <br>
+        <input type="text" formControlName="age">
+      </label>
+      <label>
+    Email *: <br>
+        <input type="text" formControlName="email">
+      </label>
+      <label>
+    Date: <br>
+        <input type="date" formControlName="date">
+      </label>
+      <label>
+    Message *: <br>
+        <textarea type="text" formControlName="message"></textarea>
+      </label>  
+      (* input are mandatory)
+    <button (click)="onSubmit()">Send</button>
+    </form>
+
+    <div>
+        <h1>Follow and contact us also on :</h1>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+    </div>
