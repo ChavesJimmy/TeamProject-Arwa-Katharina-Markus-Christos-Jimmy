@@ -17,6 +17,7 @@ import { GalleryPartyComponent } from './gallery-party/gallery-party.component';
 import { GalleryModelComponent } from './gallery-model/gallery-model.component';
 import { GalleryBirthdayComponent } from './gallery-birthday/gallery-birthday.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,13 +35,10 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     GalleryPartyComponent,
     GalleryModelComponent,
     GalleryBirthdayComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
