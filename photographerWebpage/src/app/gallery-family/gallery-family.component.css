@@ -25,3 +25,16 @@ h1{
         font-size: 5rem;
         text-shadow: black 2px 2px 4px;
     }
+    button{
+        display: block;
+        width : 100px;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin: auto;
+        background-color: rgb(222, 89, 6);
+        border: solid white 3px;
+        box-shadow: rgb(73, 73, 73) 5px 5px 5px 5px;
+        margin-top:2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
