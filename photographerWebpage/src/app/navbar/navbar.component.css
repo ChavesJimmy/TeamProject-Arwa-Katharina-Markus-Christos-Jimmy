@@ -1,0 +1,12 @@
+.logo{
+   width: 150px;
+   margin-top: 0%;
+}
+.navbar{
+    font-family: 'Shalimar', cursive;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.nav-link{
+    margin-left: 100px;
+}
