@@ -116,6 +116,7 @@ position: relative;
 .btn {
     margin-top: 10%;
     margin-left: 35%;
+    font-size: 1vw;
 }
 
 .btn:hover {
@@ -123,5 +124,41 @@ position: relative;
 }
 
 
+/* Media Queries */
+
 @media screen and (max-width: 576px) {
+    .btn {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .btn {
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .btn {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+}
+/*
+@media screen and (max-width: 1200px) {
+    .btn {
+        width: 30%;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .btn {
+        width: 40%;
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+} */
