@@ -16,6 +16,7 @@ import { GalleryFamilyComponent } from './gallery-family/gallery-family.componen
 import { GalleryPartyComponent } from './gallery-party/gallery-party.component';
 import { GalleryModelComponent } from './gallery-model/gallery-model.component';
 import { GalleryBirthdayComponent } from './gallery-birthday/gallery-birthday.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { GalleryBirthdayComponent } from './gallery-birthday/gallery-birthday.co
     GalleryFamilyComponent,
     GalleryPartyComponent,
     GalleryModelComponent,
-    GalleryBirthdayComponent
+    GalleryBirthdayComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

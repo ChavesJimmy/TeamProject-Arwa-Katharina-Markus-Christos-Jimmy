@@ -9,6 +9,7 @@ import { GalleryPartyComponent } from './gallery-party/gallery-party.component';
 import { GalleryPortraitComponent } from './gallery-portrait/gallery-portrait.component';
 import { GalleryWeddingComponent } from './gallery-wedding/gallery-wedding.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 const routes: Routes = [
   {
@@ -38,7 +39,10 @@ const routes: Routes = [
   },
   {
     path:"Family", component:GalleryFamilyComponent
-  }
+  },
+  {
+    path:"testimonials", component: TestimonialsComponent
+  },
 ];
 
 @NgModule({
