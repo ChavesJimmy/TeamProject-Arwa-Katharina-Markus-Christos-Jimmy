@@ -1,8 +1,8 @@
-.test-div-width {
-    width: 70%;
-    height: 80%;
-    margin: 0 auto;
-    position: relative;
+.div-image {
+  width: 70%;
+  height: 80%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .text-over-image {
@@ -26,64 +26,104 @@
   top: 87%;
   left: -11%;
   line-height: 1;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
 }
 
 .part-1 {
-    background-color: bisque;
-    padding: 5% 0;
-    /* position: relative; */
+  background-color: bisque;
+  padding: 5% 0;
+  /* position: relative; */
 }
 
 .part-2 {
-    background-color: antiquewhite;
-    padding: 7% 0 2% 0;
+  background-color: antiquewhite;
+  padding: 7% 0 2% 0;
 }
 
 .row {
-    margin-bottom: 7%;
+  margin-bottom: 7%;
 }
 
 .col-help {
-    /* width: 20%; */
-    margin: 0 auto;
-    line-height: 3;
+  /* width: 20%; */
+  margin: 0 auto;
+  line-height: 3;
 }
 
 h3 {
-    font-weight: bold;
-    margin-bottom: 10%;
+  font-weight: bold;
+  margin-bottom: 10%;
 }
 
 .part-3 {
-    background-color: bisque;
-    padding-top: 10%;
-    padding-bottom: 1%;
+  background-color: bisque;
+  padding-top: 10%;
+  padding-bottom: 1%;
 }
 
 .part-3-text-left {
-    font-size: 5vw;
-    line-height: 1;
-    margin-top: 7%;
-    margin-left: 9%;
-    font-family: 'Ruslan Display', cursive;
-    font-weight: bold;
-    color: rgb(212, 166, 94);
+  font-size: 5vw;
+  line-height: 1;
+  margin-top: 7%;
+  margin-left: 9%;
+  font-family: "Ruslan Display", cursive;
+  font-weight: bold;
+  color: rgb(212, 166, 94);
 }
 
 .part-3-text-right {
-    font-size: 1.3vw;
-    line-height: 2;
-}
-
-.testschneider {
-    width: 70%;
-    margin: 0 auto;
+  font-size: 1.3vw;
+  line-height: 2;
+  margin-right: 10%;
 }
 
 .part-4 {
-    background-color: antiquewhite;
-    padding-bottom: 1%;
+background-color: rgb(212, 166, 94);
+position: relative;
+}
+
+.part-4-image {
+    left: 20%;
+    position: absolute;
+}
+
+.div-left-over-image {
+    color: white;
+    padding-top: 30%;
+    height: 100%;
+    border-left: 2px solid white;
+    border-right: 1px solid white;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 26%;
+    font-size: 1.2vw;
+    line-height: 2;
+}
+
+.div-right-over-image {
+    color: white;
+    padding-top: 30%;
+    height: 100%;
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-size: 1.2vw;
+    line-height: 2;
+}
+
+.btn {
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.btn:hover {
+    background: none;
 }
 
 
+@media screen and (max-width: 576px) {
+}
