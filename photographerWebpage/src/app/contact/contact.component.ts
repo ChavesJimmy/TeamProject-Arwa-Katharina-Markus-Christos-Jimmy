@@ -10,8 +10,9 @@ export class ContactComponent implements OnInit {
   Contact = new FormGroup ({
     firstName: new FormControl('',Validators.required),
     email: new FormControl('',Validators.required),
-    date: new FormControl('',Validators.required),
+    date: new FormControl('',Validators.nullValidator),
     lastName: new FormControl('',Validators.required),
+    event: new FormControl('',Validators.nullValidator),
     age: new FormControl('',Validators.required),
     message: new FormControl('',Validators.required),
 
@@ -21,18 +22,23 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
   onSubmit(){
-
-    if(this.Contact.valid){
-
-      var a = this.Contact.value;
-      alert(``)
-      console.log(a)
+  if(this.Contact.valid){
+      alert(`Your message was send , we will get in touch with you soon!`);
    }
-   else{
+  else{
     alert(`one or more infos are missing`)
    }
+   return this.Contact = new FormGroup ({
+    firstName: new FormControl('',Validators.required),
+    email: new FormControl('',Validators.required),
+    date: new FormControl('',Validators.nullValidator),
+    lastName: new FormControl('',Validators.required),
+    event: new FormControl('',Validators.nullValidator),
+    age: new FormControl('',Validators.required),
+    message: new FormControl('',Validators.required),
 
+  })
   }
 }

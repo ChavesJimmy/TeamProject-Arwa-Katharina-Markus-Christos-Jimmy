@@ -6,3 +6,29 @@ form{
     gap: 1rem;
     align-items: center;
 }
+img{
+    width: 5rem;
+    border-radius: 1rem;
+
+}
+img:hover{
+    transform: scale(1.05);
+    margin: auto;
+    box-shadow: rgb(73, 73, 73) 5px 5px 5px 5px;
+}
+.row{
+    display: block;
+    padding: 5rem;
+}
+input, textarea, button{
+    border-radius: 2rem;
+    border: solid white 3px;
+    background-color:rgb(33,37,41) ;
+    color: white;
+    padding: 1rem;
+}
+button:hover{
+    scale: 1.1;
+    box-shadow: rgb(73, 73, 73) 3px 3px 3px 3px;
+
+}

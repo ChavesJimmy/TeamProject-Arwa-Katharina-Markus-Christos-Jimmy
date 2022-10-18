@@ -1,4 +1,4 @@
-<form [formGroup]="Contact" (ngSubmit)="onSubmit()">
+<form [formGroup]="Contact">
     <h1>Get in touch with us</h1>
     <label>
       First Name *: <br>
@@ -17,20 +17,33 @@
         <input type="text" formControlName="email">
       </label>
       <label>
-    Date: <br>
+    In which date would you need us: <br>
         <input type="date" formControlName="date">
       </label>
       <label>
+        For which type of event ?: <br>
+            <input type="text" formControlName="event">
+          </label>
+      <label>
     Message *: <br>
-        <textarea type="text" formControlName="message"></textarea>
+        <textarea type="text" rows="10" cols="40" formControlName="message"></textarea>
       </label>  
-      (* input are mandatory)
+      (* those inputs are mandatory)
     <button (click)="onSubmit()">Send</button>
     </form>
 
-    <div>
-        <h1>Follow and contact us also on :</h1>
-        <p>Facebook</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
+    <div class="row">
+        <h1 class="col-12">Follow and Contact us also on :</h1>
+        <a class="col-3" href="#">
+          <img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688__480.png" alt="">
+        </a>        
+        <a class="col-3" href="#">
+          <img src="https://cdn.pixabay.com/photo/2017/07/04/12/16/social-2470869__480.png" alt="">
+        </a>    
+        <a class="col-3" href="#">
+          <img src="https://cdn.pixabay.com/photo/2015/03/10/17/30/twitter-667462__480.png" alt="">
+        </a>
+        <a class="col-3" href="#">
+          <img src="https://cdn.pixabay.com/photo/2016/09/17/07/03/instagram-1675670__480.png" alt="">
+        </a>
     </div>
