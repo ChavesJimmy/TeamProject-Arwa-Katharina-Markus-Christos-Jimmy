@@ -31,21 +31,31 @@ button{
 }
 .card:hover{
     transform: scale(1.01);
+    opacity: 100%;
 }
 h5{
     width: 200px;
-    height: 70üx;
     text-align: center;
+    margin-top: 4rem;
     color:white;
     border: solid;
     padding: 5px;
     font-size: 2rem;
     padding: 1rem;
     background-color: black;
-    opacity: 55%;
+    opacity: 50%;
 }
+
 
 h1{
     text-align: center;
+    margin: auto;
+    font-family: 'Great Vibes', cursive;
     padding: 25px;
+    font-size: 5rem;
+    text-shadow: black 2px 2px 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }

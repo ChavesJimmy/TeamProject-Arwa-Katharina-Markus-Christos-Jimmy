@@ -9,7 +9,7 @@ img:hover{
     margin: auto;
 } 
 
-    .row{
+.row{
         padding: 6rem;
         display: flex;
         flex-direction: row;
@@ -18,7 +18,10 @@ img:hover{
         gap: 25px;
         margin: auto;
     }
-    h1{
+h1{
         text-align: center;
+        font-family: 'Great Vibes', cursive;
         padding: 25px;
+        font-size: 5rem;
+        text-shadow: black 2px 2px 4px;
     }
