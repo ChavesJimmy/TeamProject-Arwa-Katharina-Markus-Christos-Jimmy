@@ -1,4 +1,17 @@
 img{
-    width:100%;
+    width:250px;
     margin-bottom: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(2.0);
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+    margin-left: 100px;}
+.row{
+    padding: 6rem;
+
 }
