@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { GalleryBirthdayComponent } from './gallery-birthday/gallery-birthday.component';
 import { GalleryFamilyComponent } from './gallery-family/gallery-family.component';
 import { GalleryModelComponent } from './gallery-model/gallery-model.component';
@@ -43,6 +44,9 @@ const routes: Routes = [
   {
     path:"testimonials", component: TestimonialsComponent
   },
+  {
+    path:"contact", component:ContactComponent
+  }
 ];
 
 @NgModule({

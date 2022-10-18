@@ -3,76 +3,68 @@
   <h2 class="h5 fw-bold pb-3">The Opinions of our Clients</h2>
 
   <!-- Testimonial grid starts here -->
-
-  <!-- first card starts here -->
   <div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
+    <div class="col" *ngFor="let testimonial of testimonialsList">
       <div class="card border-secondary border-opacity-25">
         <div class="card-body">
           <p class="card-text text-muted pt-3">
-            “I’ve worked with Ed in several roles at different organisations,
-            simply because I’m yet to find a better photographer anywhere! Ed
-            really gets the brief every time, is professional, reliable,
-            flexible and generally lovely to work with. He’s given us some
-            brilliant shots we use again and again – highly recommend.”
+            "{{ testimonial.description }}"
           </p>
-          <i>
-            <p class="card-text fw-bold pt-2 pb-3">
-              Helen Gardener,
-              <span class="text-primary opacity-75">THIS Institute</span>
+
+          <!-- print this if company is true -->
+          <ng-container *ngIf="testimonial.company">
+            <!-- print this if position is true -->
+            <p
+              class="card-text fw-bold fst-italic pt-2 pb-3"
+              *ngIf="testimonial.position; else noPosition"
+            >
+              {{ testimonial.firstName }} {{ testimonial.lastName }} –
+              {{ testimonial.position }},
+              <span class="text-primary opacity-75">{{
+                testimonial.company
+              }}</span>
             </p>
-          </i>
+            <!-- if position is true section ends here -->
+
+            <!-- print this if position is false -->
+            <ng-template #noPosition>
+              <p class="card-text fw-bold fst-italic pt-2 pb-3">
+                {{ testimonial.firstName }} {{ testimonial.lastName }},
+                <span class="text-primary opacity-75">{{
+                  testimonial.company
+                }}</span>
+              </p>
+            </ng-template>
+            <!-- if position is false section ends here -->
+          </ng-container>
+          <!-- if company is true section ends here -->
+
+          <!-- print this if company is false -->
+          <ng-container *ngIf="!testimonial.company">
+            <!-- print this if position is true -->
+            <p
+              class="card-text fw-bold fst-italic pt-2 pb-3"
+              *ngIf="testimonial.position; else noPosition"
+            >
+              {{ testimonial.firstName }} {{ testimonial.lastName }} –
+              {{ testimonial.position }}
+            </p>
+            <!-- if position is true section ends here -->
+
+            <!-- print this if position is false -->
+            <ng-template #noPosition>
+              <p class="card-text fw-bold fst-italic pt-2 pb-3">
+                {{ testimonial.firstName }} {{ testimonial.lastName }}
+              </p>
+            </ng-template>
+            <!-- if position is false section ends here -->
+          </ng-container>
+          <!-- if company is false section ends here -->
         </div>
       </div>
     </div>
-    <!-- first card ends here -->
-
-    <!-- second card starts here -->
-    <div class="col">
-      <div class="card border-secondary border-opacity-25">
-        <div class="card-body">
-          <p class="card-text text-muted pt-3">
-            “Thank you very much for the photos of the Brain Game, they are
-            brilliant and just what we wanted. I am really pleased with how the
-            new light design came across in the photos and you have captured the
-            evening’s atmosphere wonderfully!”
-          </p>
-          <i>
-            <p class="card-text fw-bold pt-2 pb-3">
-              Amy Downing – Corporate Events Development Manager,
-              <span class="text-primary opacity-75"
-                >Marie Curie Cancer Care</span
-              >
-            </p>
-          </i>
-        </div>
-      </div>
-    </div>
-    <!-- second card ends here -->
-
-    <!-- third card starts here -->
-    <div class="col">
-      <div class="card border-secondary border-opacity-25">
-        <div class="card-body">
-          <p class="card-text text-muted pt-3">
-            “I can highly recommend Ed for all your company's need in
-            photography, we hired him for 3 events and his photos are
-            outstanding, very personal and eye fetching. We surly will contract
-            him again!”
-          </p>
-          <i>
-            <p class="card-text fw-bold pt-2 pb-3">
-              Anna Colley – Director,
-              <span class="text-primary opacity-75">Ayre Media</span>
-            </p>
-          </i>
-        </div>
-      </div>
-    </div>
-    <!-- third card ends here -->
-
-    <!-- Testimonial grid ends here -->
   </div>
+  <!-- Testimonial grid ends here -->
 
   <hr class="my-4" />
 
