@@ -118,6 +118,17 @@ position: relative;
     line-height: 2;
 }
 
+.number-with-circle-1 {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 45%;
+    padding-top: 0px;
+    /* background: transparent; */
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
 .div-right-over-image {
     color: white;
     padding-top: 15%;
@@ -130,6 +141,17 @@ position: relative;
     right: 1%;
     font-size: 1.2vw;
     line-height: 2;
+}
+
+.number-with-circle-2 {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 45%;
+    padding-top: 0px;
+    /* background: transparent; */
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 2vw;
 }
 
 .btn {
@@ -237,11 +259,11 @@ position: relative;
     }
  
     .div-left-over-image {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     .div-right-over-image {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     .btn-left {
@@ -261,11 +283,11 @@ position: relative;
     }
 
     .div-left-over-image {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .div-right-over-image {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .btn-left {
