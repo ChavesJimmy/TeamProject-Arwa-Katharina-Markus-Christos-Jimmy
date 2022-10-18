@@ -1,9 +1,7 @@
 export interface iTestimonialsList {
-  firstName: string;
-  lastName: string;
-  position?: string;
+  name: string;
   email: string;
+  position?: string;
   company?: string;
-  website?: string;
   description: string;
 }
