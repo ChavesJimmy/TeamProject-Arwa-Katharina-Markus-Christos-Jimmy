@@ -18,8 +18,7 @@
               class="card-text fw-bold fst-italic pt-2 pb-3"
               *ngIf="testimonial.position; else noPosition"
             >
-              {{ testimonial.firstName }} {{ testimonial.lastName }} –
-              {{ testimonial.position }},
+              {{ testimonial.name }} – {{ testimonial.position }},
               <span class="text-primary opacity-75">{{
                 testimonial.company
               }}</span>
@@ -29,7 +28,7 @@
             <!-- print this if position is false -->
             <ng-template #noPosition>
               <p class="card-text fw-bold fst-italic pt-2 pb-3">
-                {{ testimonial.firstName }} {{ testimonial.lastName }},
+                {{ testimonial.name }},
                 <span class="text-primary opacity-75">{{
                   testimonial.company
                 }}</span>
@@ -46,15 +45,14 @@
               class="card-text fw-bold fst-italic pt-2 pb-3"
               *ngIf="testimonial.position; else noPosition"
             >
-              {{ testimonial.firstName }} {{ testimonial.lastName }} –
-              {{ testimonial.position }}
+              {{ testimonial.name }} – {{ testimonial.position }}
             </p>
             <!-- if position is true section ends here -->
 
             <!-- print this if position is false -->
             <ng-template #noPosition>
               <p class="card-text fw-bold fst-italic pt-2 pb-3">
-                {{ testimonial.firstName }} {{ testimonial.lastName }}
+                {{ testimonial.name }}
               </p>
             </ng-template>
             <!-- if position is false section ends here -->
@@ -149,7 +147,34 @@
   </div>
   <!-- Company clients section ends here -->
 
-  <!-- Testimonial form starts here -->
+  <hr class="my-4" />
 
+  <!-- Testimonial form starts here -->
+  <h2 class="h5 fw-bold text-center pb-3">Send us your testimonial</h2>
+  <form [formGroup]="testimonialForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Your Name</label>
+      <input id="name" type="text" formControlName="name" />
+    </div>
+    <div>
+      <label for="email">Email Address</label>
+      <input id="email" type="email" formControlName="email" />
+    </div>
+    <div>
+      <label for="position">Position</label>
+      <input id="position" type="text" formControlName="position" />
+    </div>
+    <div>
+      <label for="company">Company</label>
+      <input id="company" type="text" formControlName="company" />
+    </div>
+    <div>
+      <label for="description">Testimonial:</label>
+      <input id="description" type="text" formControlName="description" />
+    </div>
+    <button class="button" type="submit" [disabled]="!testimonialForm.valid">
+      Submit
+    </button>
+  </form>
   <!-- Testimonial form ends here -->
 </div>
