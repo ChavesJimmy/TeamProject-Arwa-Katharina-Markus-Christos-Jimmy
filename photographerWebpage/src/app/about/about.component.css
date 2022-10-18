@@ -1,0 +1,73 @@
+.test-div-width {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-over-image {
+  position: absolute;
+  font-weight: bold;
+  top: -4%;
+  left: -10%;
+  line-height: 1;
+}
+
+.text-over-image-2 {
+  position: absolute;
+  font-weight: bold;
+  right: -10%;
+  bottom: -4%;
+  line-height: 1;
+}
+
+.text-over-image-3 {
+  position: absolute;
+  top: 87%;
+  left: -11%;
+  line-height: 1;
+  font-family: 'Tangerine', cursive;
+}
+
+.part-1 {
+    background-color: bisque;
+    padding: 5% 0;
+    /* position: relative; */
+}
+
+.part-2 {
+    background-color: antiquewhite;
+    padding: 7% 0 2% 0;
+}
+
+.row {
+    margin-bottom: 7%;
+}
+
+.col-help {
+    /* width: 20%; */
+    margin: 0 auto;
+    line-height: 3;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.part-3 {
+    background-color: bisque;
+    padding-bottom: 1%;
+}
+
+.testschneider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.part-4 {
+    background-color: antiquewhite;
+    padding-bottom: 1%;
+}
+
+
