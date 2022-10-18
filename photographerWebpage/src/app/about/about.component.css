@@ -1,3 +1,8 @@
+.part-1 {
+  background-color: bisque;
+  padding: 14% 0 3% 0;
+}
+
 .div-image {
   width: 70%;
   height: 80%;
@@ -29,10 +34,6 @@
   font-family: "Tangerine", cursive;
 }
 
-.part-1 {
-  background-color: bisque;
-  padding: 5% 0;
-}
 
 .part-2 {
   background-color: antiquewhite;
