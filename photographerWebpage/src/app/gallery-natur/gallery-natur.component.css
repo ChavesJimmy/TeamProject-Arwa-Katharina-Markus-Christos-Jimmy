@@ -13,4 +13,10 @@ img:hover{
 }
 .row{
     padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 25px;
+    margin: auto;
 }

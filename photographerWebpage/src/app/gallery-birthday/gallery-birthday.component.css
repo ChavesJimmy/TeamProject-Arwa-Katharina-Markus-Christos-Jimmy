@@ -1,14 +1,21 @@
 img{
-    width:100%;
+    width:250px;
     margin-bottom: 10px;
-    object-fit: contain;
+    height: 250px;
+    object-fit: cover;
 }
 img:hover{
     transform: scale(2.0);
-    height: 100%;
     margin: auto;
-    margin-left: 100px;}
-
+    height: 100%;
+    width: 100%;
+}
 .row{
     padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 25px;
+    margin: auto;
 }
