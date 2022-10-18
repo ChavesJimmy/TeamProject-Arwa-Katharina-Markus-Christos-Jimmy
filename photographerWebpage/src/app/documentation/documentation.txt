@@ -1,0 +1,16 @@
+First Team Project 
+
+Team front-end developers : Markus, Katharina, Arwa, Christos, Jimmy.
+
+Technologies used : Angular, Bootstrap 5, CSS.
+
+Project C : create a website for a Photography Company.
+
+Organisation with Trello : https://trello.com/invite/b/RY0wregr/ATTI7e56a4966a3f50e067cc7895f3adee2cA63663D3/first-team-project 
+
+Team meetings : every day at 9:00 AM 
+
+Time allowed for the project : From Monday 10:00 AM until Thursday 12:00 PM.
+
+Mind mapping : see the documentation.drawio 
+
