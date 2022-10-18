@@ -57,7 +57,23 @@ h3 {
 
 .part-3 {
     background-color: bisque;
+    padding-top: 10%;
     padding-bottom: 1%;
+}
+
+.part-3-text-left {
+    font-size: 5vw;
+    line-height: 1;
+    margin-top: 7%;
+    margin-left: 9%;
+    font-family: 'Ruslan Display', cursive;
+    font-weight: bold;
+    color: rgb(212, 166, 94);
+}
+
+.part-3-text-right {
+    font-size: 1.3vw;
+    line-height: 2;
 }
 
 .testschneider {
