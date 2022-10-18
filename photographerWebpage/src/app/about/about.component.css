@@ -1,3 +1,8 @@
+.part-1 {
+  background-color: bisque;
+  padding: 14% 0 3% 0;
+}
+
 .div-image {
   width: 70%;
   height: 80%;
@@ -29,10 +34,6 @@
   font-family: "Tangerine", cursive;
 }
 
-.part-1 {
-  background-color: bisque;
-  padding: 5% 0;
-}
 
 .part-2 {
   background-color: antiquewhite;
@@ -80,6 +81,10 @@ background-color: rgb(212, 166, 94);
 position: relative;
 }
 
+.part-4-background {
+    height: 1300px;
+}
+
 .part-4-image {
     left: 20%;
     position: absolute;
@@ -87,7 +92,7 @@ position: relative;
 
 .div-left-over-image {
     color: white;
-    padding-top: 30%;
+    padding-top: 15%;
     height: 100%;
     border-left: 2px solid white;
     border-right: 1px solid white;
@@ -101,7 +106,7 @@ position: relative;
 
 .div-right-over-image {
     color: white;
-    padding-top: 30%;
+    padding-top: 15%;
     height: 100%;
     border-left: 1px solid white;
     border-right: 2px solid white;
@@ -116,6 +121,7 @@ position: relative;
 .btn {
     margin-top: 10%;
     margin-left: 35%;
+    font-size: 1vw;
 }
 
 .btn:hover {
@@ -123,5 +129,132 @@ position: relative;
 }
 
 
+/* Media Queries */
+
 @media screen and (max-width: 576px) {
+    .part-4-background {
+        height: 300px;
+    }
+    
+    .div-left-over-image {
+        padding-top: 20%;
+    }
+
+    .div-right-over-image {
+        padding-top: 20%;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 17%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .part-4-background {
+        height: 500px;
+    }
+
+    .div-left-over-image {
+        padding-top: 23%;
+    }
+
+    .div-right-over-image {
+        padding-top: 23%;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 23%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .part-4-background {
+        height: 700px;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 28%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .part-4-background {
+        height: 800px;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 31%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .part-4-background {
+        height: 1000px;
+    }
+ 
+    .div-left-over-image {
+        padding-top: 25%;
+    }
+
+    .div-right-over-image {
+        padding-top: 25%;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 31%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .part-4-background {
+        height: 1300px;
+    }
+
+    .div-left-over-image {
+        padding-top: 15%;
+    }
+
+    .div-right-over-image {
+        padding-top: 15%;
+    }
+
+    .btn-left {
+        margin-top: 10%;
+        margin-left: 33.5%;
+    }
+
+    .btn-right {
+        margin-top: 10%;
+        margin-left: 35%;
+    }
 }
