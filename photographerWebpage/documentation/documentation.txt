@@ -14,6 +14,8 @@ Time allowed for the project : From Monday 10:00 AM until Thursday 12:00 PM.
 
 Mind mapping : see the documentation.drawio 
 
+Presentation : https://docs.google.com/presentation/d/1ctWB-S4EQ4JuZMcWrShKLBQJqclBbuSHAT5FTIKTPx0/edit?usp=sharing
+
 Monday Meeting:
 -Choose a Project (C)
 -Choose a Teamleader (Jimmy)
