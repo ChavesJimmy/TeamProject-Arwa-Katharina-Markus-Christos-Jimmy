@@ -29,14 +29,17 @@ h1{
     }
     button{
         display: block;
-        width : 100px;
-        padding: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-        margin: auto;
-        background-color: rgb(222, 89, 6);
+        border-radius: 2rem;
         border: solid white 3px;
-        box-shadow: rgb(73, 73, 73) 5px 5px 5px 5px;
-        margin-top:2rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:rgb(33,37,41) ;
+        color: white;
+        padding: 1rem;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    button:hover{
+        scale: 1.1;
+        box-shadow: rgb(73, 73, 73) 3px 3px 3px 3px;
+    
     }
