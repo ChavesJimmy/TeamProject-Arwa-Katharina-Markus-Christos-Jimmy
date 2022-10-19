@@ -1,6 +1,9 @@
 /* Section 1 */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+.banner {
+    background-color: black;
+}
 .part-1 {
   padding: 10% 0 3% 0;
 }
@@ -68,10 +71,6 @@ h3 {
 
 /* Section 3 */
 
-.titel3 {
-    font-size: 80px !important;
-}
-
 .part-3-text-left {
   font-size: 5vw;
   line-height: 1;
@@ -108,20 +107,15 @@ position: relative;
 }
 
 .part-4-background {
-    height: 1300px;
-}
-
-.part-4-image {
-    left: 20%;
-    position: absolute;
+    height: 750px !important;
+    object-fit: cover;
 }
 
 .div-left-over-image {
     color: white;
     padding-top: 15%;
     height: 100%;
-    border-left: 2px solid white;
-    border-right: 1px solid white;
+   
     width: 25%;
     position: absolute;
     top: 0;
@@ -134,8 +128,6 @@ position: relative;
     color: white;
     padding-top: 15%;
     height: 100%;
-    border-left: 1px solid white;
-    border-right: 2px solid white;
     width: 25%;
     position: absolute;
     top: 0;
@@ -158,10 +150,13 @@ position: relative;
     margin-top: 10%;
     margin-left: 35%;
     font-size: 1vw;
+    font-weight: bold;
+    background: #a8a09b;
+    border: 2px solid #a8a09b;
 }
 
 .btn:hover {
-    background: none;
+    background: transparent;
 }
 
 .stars-2 {

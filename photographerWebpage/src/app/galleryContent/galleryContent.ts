@@ -1,23 +1,23 @@
 export const mainImage : Array<any> = [
     {
-        image :"https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862__480.jpg",
+        image :"https://i.pinimg.com/564x/75/eb/be/75ebbeb90a7b8359276362fb0a2165f7.jpg",
         title:"Wedding"},
     {
-        image :"https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519__480.jpg",
+        image :"https://i.pinimg.com/564x/17/58/4d/17584dea3c9e0e1ae5e65cd90233d3ad.jpg",
         title:"Portrait"},
     {
-        image :"https://cdn.pixabay.com/photo/2017/08/08/03/50/family-2610205__480.jpg",
+        image :"https://i.pinimg.com/564x/76/0d/cd/760dcd7106a16d64fc1cc09264b578db.jpg",
         title:"Family"},
     {
-        image :"https://cdn.pixabay.com/photo/2016/11/22/19/15/audience-1850119__480.jpg",
+        image :"https://i.pinimg.com/564x/0e/b6/11/0eb61139a992d291073fff09c97678c5.jpg",
         title:"Party"},
     {
-        image :"https://cdn.pixabay.com/photo/2017/12/13/11/57/birthday-3016615__480.jpg",
+        image :"https://i.pinimg.com/564x/6b/39/cf/6b39cf0ef917ed9b11ab0e774ec57693.jpg",
         title:"Birthday"},
     {
-        image :"https://cdn.pixabay.com/photo/2015/06/19/09/39/lonely-814631__480.jpg",
+        image :"https://i.pinimg.com/564x/fe/9a/e4/fe9ae4c2659bdf0ae50e8bff9312b7ef.jpg",
         title:"Model"},
-    {   image :"https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297__480.jpg",
+    {   image :"https://i.pinimg.com/564x/05/99/fe/0599fe86bdd5ec72f7d8b09ff90aaa81.jpg",
         title:"Natur"},
 ]
 export const myGalleryWedding : Array<any> = [
