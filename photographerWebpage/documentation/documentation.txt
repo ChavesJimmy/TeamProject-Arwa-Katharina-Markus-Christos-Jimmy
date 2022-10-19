@@ -6,7 +6,7 @@ Technologies used : Angular, Bootstrap 5, CSS.
 
 Project C : create a website for a Photography Company.
 
-Organisation with Trello : https://trello.com/invite/b/RY0wregr/ATTI7e56a4966a3f50e067cc7895f3adee2cA63663D3/first-team-project 
+Organisation KANBAN with Trello : https://trello.com/invite/b/RY0wregr/ATTI7e56a4966a3f50e067cc7895f3adee2cA63663D3/first-team-project 
 
 Team meetings : every day at 9:00 AM 
 
@@ -14,3 +14,22 @@ Time allowed for the project : From Monday 10:00 AM until Thursday 12:00 PM.
 
 Mind mapping : see the documentation.drawio 
 
+Monday Meeting:
+-Choose a Project (C)
+-Choose a Teamleader (Jimmy)
+-Choose the Technologies (Angular, Bootstrap 5, CSS.)
+-Choose the organisation (KANBAN through Trello)
+-Define the structure of the website (drawio, trello)
+-Define a daily task for each team member (creating the structure of all the pages)
+-Note to be careful (pull and noticed before) by pushing on GitHub to avoid merge conflict.
+
+Tuesday Meeting:
+-Show how look the website
+-Define daily tasks (finish the pages and add styling)
+-Katharina was designated as Head of styling
+-
+
+Wednesday Meeting:
+-Review of the website
+-Discussion about small issues and axes of improvement
+-Control of all the links/routes
