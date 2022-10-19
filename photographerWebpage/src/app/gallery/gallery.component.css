@@ -12,19 +12,19 @@ img{
 
 button{
     display: block;
-    border-radius: 2rem;
-    border: solid white 3px;
-    background-color:rgb(33,37,41) ;
-    color: white;
-    padding: 1rem;
+    width : 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    font-weight: bold;
+    background: #a8a09b;
+    border: 2px solid #a8a09b;
+    color: white;
 }
-button:hover{
-    scale: 1.1;
-    box-shadow: rgb(73, 73, 73) 3px 3px 3px 3px;
 
+button:hover {
+    background: transparent;
 }
 .card{
     margin: auto;
