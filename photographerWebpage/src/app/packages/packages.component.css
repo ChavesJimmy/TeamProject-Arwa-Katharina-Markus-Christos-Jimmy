@@ -293,6 +293,10 @@ h1 {
 }
 
 @media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4vw;
+    }
+    
     .packages {
         border-radius: 50%;
         width: 22vw;
@@ -332,6 +336,10 @@ h1 {
 }
 
 @media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 4vw;
+    }
+
     .packages {
         border-radius: 50%;
         width: 22vw;
