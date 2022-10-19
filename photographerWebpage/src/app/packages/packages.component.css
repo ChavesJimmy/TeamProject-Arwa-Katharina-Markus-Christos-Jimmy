@@ -74,3 +74,297 @@ h1 {
     margin-top: 0.5%;
     margin-bottom: 1.5%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: -5%;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+    
+}
+
+@media screen and (min-width: 481px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.2vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.2vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: -5%;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.3vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.2vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.3vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.3vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.3vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.3vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: 8%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.4vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.4vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .packages {
+        border-radius: 50%;
+        width: 22vw;
+        height: 22vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.4vw;
+        line-height: 1.5;
+    }
+    
+    #headline-package {
+        margin-top: 13%;
+        font-weight: bold;
+        font-size: 1.5;
+    }
+    
+    .packages-studio {
+        border-radius: 50%;
+        width: 24vw;
+        height: 24vw;
+        margin: 0 auto;
+        /* padding-top: 10%; */
+        border: 1vw solid rgb(0, 0, 0);
+        background-color: black;
+        font-size: 1.5vw;
+        line-height: 1.8;
+    }
+    
+    #headline-package-studio {
+        margin-top: 13%;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+}
