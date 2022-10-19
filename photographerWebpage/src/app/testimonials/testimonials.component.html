@@ -1,5 +1,5 @@
 <div class="container" id="testimonials-container">
-  <h1 class="h3 fw-bold py-3">Testimonials</h1>
+  <h1 class="h3 fw-bold py-3 ">Testimonials</h1>
   <h2 class="h5 fw-bold pb-3">The Opinions of our Clients</h2>
 
   <!-- Testimonial grid starts here -->
@@ -19,7 +19,7 @@
               *ngIf="testimonial.position; else noPosition"
             >
               {{ testimonial.name }} – {{ testimonial.position }},
-              <span class="text-primary opacity-75">{{
+              <span class="textClient opacity-75">{{
                 testimonial.company
               }}</span>
             </p>
@@ -29,7 +29,7 @@
             <ng-template #noPosition>
               <p class="card-text fw-bold fst-italic pt-2 pb-3">
                 {{ testimonial.name }},
-                <span class="text-primary opacity-75">{{
+                <span class="textClient opacity-75">{{
                   testimonial.company
                 }}</span>
               </p>

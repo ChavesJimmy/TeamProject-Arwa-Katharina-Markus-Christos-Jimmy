@@ -18,3 +18,20 @@ button:hover{
     box-shadow: rgb(73, 73, 73) 3px 3px 3px 3px;
 
 }
+
+.card-body {
+    background-color: #a8a09b;
+    border-color: #a8a09b;
+}
+h1 {
+   
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+.textClient {
+    color: black;
+}
