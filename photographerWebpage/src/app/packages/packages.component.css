@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.banner {
+    background-color: black;
+}
+
+h1 {
+    padding-top:0;
+    margin-top:0;
+    text-align: center;
+    text-transform:uppercase;
+    color: white;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.row {
+    margin-bottom: 10%;
+}
+
+.p-3 {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin: 0 auto;
+    /* padding-top: 10%; */
+    border: 1vw solid rgb(0, 0, 0);
+    background-color: black;
+    font-size: 1.2vw;
+    line-height: 2;
+}
+
+#headline-package {
+    margin-top: 15%;
+    font-weight: bold;
+}

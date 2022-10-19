@@ -11,10 +11,15 @@ import { GalleryPortraitComponent } from './gallery-portrait/gallery-portrait.co
 import { GalleryWeddingComponent } from './gallery-wedding/gallery-wedding.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { PackagesComponent } from './packages/packages.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 const routes: Routes = [
   {path:"", component: HomePageComponent
+  },
+  {
+    path:"packages",
+    component: PackagesComponent,
   },
   {
     path: "about",

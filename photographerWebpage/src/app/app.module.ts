@@ -18,6 +18,7 @@ import { GalleryModelComponent } from './gallery-model/gallery-model.component';
 import { GalleryBirthdayComponent } from './gallery-birthday/gallery-birthday.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PackagesComponent } from './packages/packages.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     GalleryModelComponent,
     GalleryBirthdayComponent,
     TestimonialsComponent,
+    PackagesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],

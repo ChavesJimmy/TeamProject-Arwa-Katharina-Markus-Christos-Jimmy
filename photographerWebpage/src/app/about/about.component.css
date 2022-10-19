@@ -4,6 +4,7 @@
 .banner {
     background-color: black;
 }
+
 .part-1 {
   padding: 10% 0 3% 0;
 }
@@ -37,6 +38,7 @@
 }
 
 /* Section 2 */
+
 h1 {
     padding-top:0;
     margin-top:0;
@@ -47,6 +49,7 @@ h1 {
     font-size: 50px;
     text-transform: lowercase;
 }
+
 hr {
     color: #a8a09b;
 }
@@ -89,9 +92,9 @@ h3 {
   margin-right: 10%;
 }
 
-.magicImg {
+/* .magicImg {
     margin-top: -20%;
-}
+} */
 
 .stars {
     position: absolute;
@@ -107,7 +110,7 @@ position: relative;
 }
 
 .part-4-background {
-    height: 750px !important;
+    /* height: 1000px; */
     object-fit: cover;
 }
 
@@ -140,7 +143,7 @@ position: relative;
     border-radius: 50%;
     width: 3.5vw;
     height: 3.5vw;
-    margin-left: 45%;
+    margin: 0 auto 10% auto;
     padding-top: 0.2vw;
     border: 0.3vw solid rgb(255, 255, 255);
     font-size: 2vw;
@@ -174,11 +177,11 @@ position: relative;
     }
     
     .div-left-over-image {
-        padding-top: 20%;
+        padding-top: 35%;
     }
 
     .div-right-over-image {
-        padding-top: 20%;
+        padding-top: 35%;
     }
 
     .btn-left {
@@ -198,11 +201,11 @@ position: relative;
     }
 
     .div-left-over-image {
-        padding-top: 23%;
+        padding-top: 30%;
     }
 
     .div-right-over-image {
-        padding-top: 23%;
+        padding-top: 30%;
     }
 
     .btn-left {
@@ -252,14 +255,14 @@ position: relative;
     .part-4-background {
         height: 1000px;
     }
- 
+/*  
     .div-left-over-image {
         padding-top: 15%;
     }
 
     .div-right-over-image {
         padding-top: 15%;
-    }
+    } */
 
     .btn-left {
         margin-top: 10%;
@@ -274,15 +277,15 @@ position: relative;
 
 @media screen and (min-width: 1400px) {
     .part-4-background {
-        height: 1300px;
+        height: 1100px;
     }
 
     .div-left-over-image {
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
     .div-right-over-image {
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
     .btn-left {
