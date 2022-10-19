@@ -23,7 +23,19 @@ h1 {
     margin-bottom: 10%;
 }
 
-.p-3 {
+.packages {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin: 0 auto;
+    /* padding-top: 10%; */
+    border: 1vw solid rgb(0, 0, 0);
+    background-color: black;
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+
+.packages-studio {
     border-radius: 50%;
     width: 20vw;
     height: 20vw;
@@ -38,4 +50,21 @@ h1 {
 #headline-package {
     margin-top: 15%;
     font-weight: bold;
+}
+
+.btn {
+    /* margin-top: 10%; */
+    /* margin-left: 35%; */
+    font-size: 1vw;
+    font-weight: bold;
+    background: #a8a09b;
+    border: 2px solid #a8a09b;
+}
+
+.btn:hover {
+    background: transparent;
+}
+
+.btn {
+    margin-bottom: 1.5%;
 }
