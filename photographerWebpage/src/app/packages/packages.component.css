@@ -35,6 +35,11 @@ h1 {
     line-height: 1.5;
 }
 
+#headline-package {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
 .packages-studio {
     border-radius: 50%;
     width: 20vw;
@@ -47,8 +52,8 @@ h1 {
     line-height: 2;
 }
 
-#headline-package {
-    margin-top: 15%;
+#headline-package-studio {
+    margin-top: 10%;
     font-weight: bold;
 }
 
