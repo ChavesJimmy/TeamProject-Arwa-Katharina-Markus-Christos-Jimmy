@@ -21,8 +21,8 @@
   position: absolute;
   font-size: 45px !important;
   font-weight: bold;
-  top: -2%;
-  left: -9%;
+  top: -1%;
+  left: -6%;
   line-height: 1;
   color: rgba(255, 255, 255, 0.335);
 }
@@ -31,8 +31,8 @@
   position: absolute;
   font-size: 45px !important;
   font-weight: bold;
-  right: -15%;
-  bottom: -27%;
+  right: -9%;
+  bottom: -22%;
   line-height: 1;
   color: rgba(255, 255, 255, 0.335);
 }
@@ -95,12 +95,6 @@ h3 {
 /* .magicImg {
     margin-top: -20%;
 } */
-
-.stars {
-    position: absolute;
-    top: 4%;
-    right: 3%;
-}
 
 /* Section 4 */
 
