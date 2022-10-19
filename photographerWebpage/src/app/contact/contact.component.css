@@ -25,10 +25,14 @@ input, textarea, button{
     border: solid white 3px;
     background-color:rgb(33,37,41) ;
     color: white;
+    font-weight: bold;
     padding: 1rem;
 }
 button:hover{
     scale: 1.1;
     box-shadow: rgb(73, 73, 73) 3px 3px 3px 3px;
 
+}
+img{
+    filter: grayscale(50%);
 }
