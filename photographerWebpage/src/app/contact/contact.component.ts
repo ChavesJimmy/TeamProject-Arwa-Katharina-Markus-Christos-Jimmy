@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-contact',
@@ -25,10 +26,25 @@ export class ContactComponent implements OnInit {
  
   onSubmit(){
   if(this.Contact.valid){
-      alert(`Your message was send , we will get in touch with you soon!`);
-   }
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      background :`rgb(33,37,41)`,
+      color : `white`,
+      title: 'Your message was sent, we are looking forward to work with you ',
+      showConfirmButton: false,
+      timer: 1500
+    })   }
   else{
-    alert(`one or more infos are missing`)
+    Swal.fire({
+      position: 'center',
+      icon: 'error',
+      background :`rgb(33,37,41)`,
+      color : `white`,
+      title: 'One or more mandatory fields are empty ',
+      showConfirmButton: false,
+      timer: 1500
+    })
    }
    return this.Contact = new FormGroup ({
     firstName: new FormControl('',Validators.required),
