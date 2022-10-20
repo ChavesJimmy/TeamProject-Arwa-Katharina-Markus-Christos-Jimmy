@@ -1,20 +1,47 @@
-First Team Project 
+FIRST TEAM PROJECT 
+_________________________________________________________
+NAME : TeamProject-Arwa-Katharina-Markus-Christos-Jimmy 
+_________________________________________________________________________________________________
+GITHUB REPO : https://github.com/ChavesJimmy/TeamProject-Arwa-Katharina-Markus-Christos-Jimmy.git
+_______________________________________________________________________________________________
+TEAM front-end developers : Markus, Katharina, Arwa, Christos, Jimmy. (renamed : JAMCK)
+_____________________________________________________________
+TECHNOLOGIES used : Angular, Bootstrap 5, CSS, Sweetalert2.
+____________________________________________________________________________________________________________________________________
+METHOD => KANBAN with Trello : https://trello.com/invite/b/RY0wregr/ATTI7e56a4966a3f50e067cc7895f3adee2cA63663D3/first-team-project 
+_______________________________________________
+TEAM MEETINGS : every day at 9:00 AM on Slack
+_____________________________________________________________________________
+TIME ALLOWED FOR THE PROJECT : From Monday 10:00 AM until Thursday 12:00 PM.
+_____________________________________________
+MIND MAPPING : see the documentation.drawio 
+____________________________________________________________________________________________________________________
+PRESENTATION : https://docs.google.com/presentation/d/1ctWB-S4EQ4JuZMcWrShKLBQJqclBbuSHAT5FTIKTPx0/edit?usp=sharing 
 
-Team front-end developers : Markus, Katharina, Arwa, Christos, Jimmy.
-
-Technologies used : Angular, Bootstrap 5, CSS.
-
+Time of the presentation : Thursday, 14:55.
+________________________________
+COMMUNNICATION : through Stack
+________________________________________________________________
 Project C : create a website for a Photography Company.
+--------------------------------------------
+Goals:
+-Work as a team
+-Create a nice and responsive website 
+--------------------------------------------
+Non-goals:
+-Making too much pages 
+--------------------------------------------
+Scope:
+-Add a carousel if we have time and if it fit with our design
+--------------------------------------------
+Anti-goals:
+-Extra hours working
+-Merge conflict on GitHub
+-Use of materials with copyright
 
-Organisation KANBAN with Trello : https://trello.com/invite/b/RY0wregr/ATTI7e56a4966a3f50e067cc7895f3adee2cA63663D3/first-team-project 
 
-Team meetings : every day at 9:00 AM 
-
-Time allowed for the project : From Monday 10:00 AM until Thursday 12:00 PM.
-
-Mind mapping : see the documentation.drawio 
-
-Presentation : https://docs.google.com/presentation/d/1ctWB-S4EQ4JuZMcWrShKLBQJqclBbuSHAT5FTIKTPx0/edit?usp=sharing
+_______________________________________________________________________________________________
+MEETINGS
 
 Monday Meeting:
 -Choose a Project (C)
@@ -25,13 +52,22 @@ Monday Meeting:
 -Define a daily task for each team member (creating the structure of all the pages)
 -Note to be careful (pull and noticed before) by pushing on GitHub to avoid merge conflict.
 
+----------------------------------------------------------------------------------------------
+
 Tuesday Meeting:
 -Show how look the website
 -Define daily tasks (finish the pages and add styling)
 -Katharina was designated as Head of styling
--
+
+---------------------------------------------------------------------------------------------
 
 Wednesday Meeting:
 -Review of the website
 -Discussion about small issues and axes of improvement
 -Control of all the links/routes
+
+----------------------------------------------------------------------------------------------
+
+Thursday Meeting:
+-Last review from the website 
+-Organisation for the presentation
