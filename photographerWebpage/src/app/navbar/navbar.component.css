@@ -32,6 +32,17 @@
     background: #a8a09b;
   }
   
+  @media screen and (max-width: 992px){
+    .navbar .navbar-nav {
+      width: 100%;
+      font-size: 1.2rem;
+    }
+    .navbar .navbar-nav .nav-item {
+      width: 100%;
+      text-align:center;
+    }
+  }
+
   @media screen and (max-width: 675px) {
     .logo {
       width: 12vw;
