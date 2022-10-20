@@ -75,3 +75,9 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-timelin
       font-size: 3.5vw !important;
     }
   }
+
+  @supports (-moz-appearance:none) {
+    audio {
+      width: 50px;
+    }
+  }
