@@ -35,3 +35,15 @@ h2 {
 .textClient {
     color: black;
 }
+
+#description{
+    width: 20rem;
+    height: 20rem;
+}
+
+@media screen and (max-width: 426px) {
+    #description{
+        width: 15rem;
+        height: 10rem;
+    }
+}
