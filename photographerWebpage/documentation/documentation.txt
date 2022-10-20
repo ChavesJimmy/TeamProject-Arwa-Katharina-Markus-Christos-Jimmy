@@ -32,11 +32,11 @@ Non-goals:
 -Making too much pages 
 --------------------------------------------
 Scope:
--Add a carousel if we have time and if it fit with our design
+-Add a carousel if we have time and if it fits with our design
 --------------------------------------------
 Anti-goals:
--Extra hours working
--Merge conflict on GitHub
+-Extra hours of working
+-Merge conflicts on GitHub
 -Use of materials with copyright
 
 
