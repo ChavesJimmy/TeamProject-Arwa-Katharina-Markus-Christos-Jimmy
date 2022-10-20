@@ -19,7 +19,7 @@ export const testimonialsList = [
     email: 'test3@hotmail.com',
     position: 'Director',
     description:
-      "I can highly recommend JAMCK for all your company's need in photography, we hired them for 3 events and their photos are outstanding, very personal and eye fetching. We surly will contract them again!",
+      "I can highly recommend JAMCK for all your company's need in photography, we hired them for 3 events and their photos are outstanding, very personal and eye fetching. We surely will contract them again!",
   },
   {
     name: 'John Doe',
